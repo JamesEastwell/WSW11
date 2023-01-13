@@ -1,27 +1,8 @@
 #include<iostream>
 #include<string>
 #include<vector>
+#include"Matrix.h"
 using namespace std;
-template<typename type, int maxRows, int maxCols>
-class matrix
-{
-private:
-	int rows;
-	int cols;
-	type arr[maxRows][maxCols];
-public:
-	matrix() {
-		type arr[maxRows][maxCols];
-		rows = 0;
-		cols = 0;
-	}
-	void setElement(int row, int col, type val) {
-		arr[row][col] = val;
-	}
-	type getElement(int row, int col) {
-		return arr[row][col];
-	}
-};
 
 int main()
 {
