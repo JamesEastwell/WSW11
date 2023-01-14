@@ -1,7 +1,7 @@
 #include"Matrix.h"
-
+using namespace std;
 template<typename type, int maxRows, int maxCols>
-matrix< type, maxRows, maxCols>::matrix() 
+matrix < type, maxRows, maxCols>::matrix() 
 {
 	type arr[maxRows][maxCols];
 	rows = 0;

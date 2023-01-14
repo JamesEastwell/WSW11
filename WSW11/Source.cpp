@@ -2,6 +2,8 @@
 #include<string>
 #include<vector>
 #include"Matrix.h"
+#include "Matrix.cpp"
+
 using namespace std;
 
 int main()
